@@ -29,6 +29,8 @@ namespace zhoyoung\xhprof\lib;
 // @author Kannan Muthukkaruppan
 //
 
+use yii;
+
 
 class Html {
 	/**
@@ -566,6 +568,7 @@ class Html {
 			$num = call_user_func($fmt_func, $num);
 		}
 
+		Yii::$app->response->send();
 		print("<td $attributes $class>$num</td>\n");
 	}
 
