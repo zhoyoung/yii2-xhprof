@@ -2,13 +2,13 @@
     "name": "zhoyoung/yii2-xhprof",
     "description": "Yii2 provide support for xhprof",
     "keywords": ["PHP","Yii2","xhprof"],
-    "homepage": "http://git.oschina.net/fbi/yii2-xhprof",
+    "homepage": "https://github.com/zhoyoung/yii2-xhprof",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
         {
             "name": "young",
-            "homepage": "http://git.oschina.net/fbi"
+            "homepage": "https://github.com/zhoyoung/yii2-xhprof"
         }
     ],
     "require": {
