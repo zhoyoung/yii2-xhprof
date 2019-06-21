@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace fbi\xhprof;
+namespace zhoyoung\xhprof;
 
 use yii\web\AssetBundle;
 
@@ -17,7 +17,7 @@ use yii\web\AssetBundle;
  */
 class XhprofAsset extends AssetBundle
 {
-    public $sourcePath = '@fbi/xhprof/assets';
+    public $sourcePath = '@zhoyoung/xhprof/assets';
     public $css = [
         'css/xhprof.css',
 		'jquery/jquery.tooltip.css',

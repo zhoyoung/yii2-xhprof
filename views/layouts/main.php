@@ -3,7 +3,7 @@
 /* @var $content string */
 use yii\helpers\Html;
 
-fbi\xhprof\XhprofAsset::register($this);
+zhoyoung\xhprof\XhprofAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

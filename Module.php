@@ -6,11 +6,11 @@
  * Time: 17:22
  */
 
-namespace fbi\xhprof;
+namespace zhoyoung\xhprof;
 
-use fbi\xhprof\controllers\DefaultController;
-use fbi\xhprof\lib\Helper;
-use fbi\xhprof\lib\XHProfRuns_Default;
+use zhoyoung\xhprof\controllers\DefaultController;
+use zhoyoung\xhprof\lib\Helper;
+use zhoyoung\xhprof\lib\XHProfRuns_Default;
 use logger\Logger;
 use yii\base\Application;
 use yii\base\BootstrapInterface;

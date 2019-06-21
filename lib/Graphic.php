@@ -6,7 +6,7 @@
  * Time: 21:51
  */
 
-namespace fbi\xhprof\lib;
+namespace zhoyoung\xhprof\lib;
 
 
 class Graphic {

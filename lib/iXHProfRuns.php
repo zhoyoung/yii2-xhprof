@@ -6,7 +6,7 @@
  * Time: 18:17
  */
 
-namespace fbi\xhprof\lib;
+namespace zhoyoung\xhprof\lib;
 
 //
 //  Copyright (c) 2009 Facebook

@@ -6,7 +6,7 @@
  * Time: 18:18
  */
 
-namespace fbi\xhprof\lib;
+namespace zhoyoung\xhprof\lib;
 
 
 /**

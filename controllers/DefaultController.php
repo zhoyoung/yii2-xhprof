@@ -5,12 +5,12 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace fbi\xhprof\controllers;
+namespace zhoyoung\xhprof\controllers;
 
-use fbi\xhprof\lib\Graphic;
-use fbi\xhprof\lib\Helper;
-use fbi\xhprof\lib\Html;
-use fbi\xhprof\lib\XHProfRuns_Default;
+use zhoyoung\xhprof\lib\Graphic;
+use zhoyoung\xhprof\lib\Helper;
+use zhoyoung\xhprof\lib\Html;
+use zhoyoung\xhprof\lib\XHProfRuns_Default;
 use Yii;
 use yii\helpers\Url;
 use yii\web\Controller;
