@@ -40,11 +40,9 @@ class Module extends \yii\base\Module implements BootstrapInterface{
 	 */
 	public $dir='@runtime/xhprof';
 
-//	public $defaultRoute = 'default';
 
 	public function init(){
 		parent::init();
-//		echo '<pre>';var_dump($this);exit;
 		if($this->dir) {
 			$this->dir = \Yii::getAlias($this->dir);
 		}elseif($dir=ini_set('xhprof.output_dir')){
@@ -70,21 +68,6 @@ class Module extends \yii\base\Module implements BootstrapInterface{
             ['class' => 'yii\web\UrlRule', 'pattern' => $this->id . '/<id:\w+>', 'route' => $this->id . '/default/view'],
             ['class' => 'yii\web\UrlRule', 'pattern' => $this->id . '/<controller:[\w\-]+>/<action:[\w\-]+>', 'route' => $this->id . '/<controller>/<action>'],
         ], false);
-
-//        $app->getUrlManager()->addRules([
-//            [
-//                'class' => 'yii\web\UrlRule',
-//                'route' => $this->id,
-//                'pattern' => $this->id,
-//                'suffix' => false
-//            ],
-//            [
-//                'class' => 'yii\web\UrlRule',
-//                'route' => $this->id . '/<controller>/<action>',
-//                'pattern' => $this->id . '/<controller:[\w\-]+>/<action:[\w\-]+>',
-//                'suffix' => false
-//            ]
-//        ], false);
 
 	}
 
